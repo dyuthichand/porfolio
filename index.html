@@ -317,7 +317,12 @@
                         <!-- end contact info ( email - phone) -->
                         <!-- start contact form -->
                         <div class="col-lg-7 col-md-12">
-                            <form id="contact-form" action="css/mail.php">
+                            
+                            <form action="https://formspree.io/f/mgepzlzp" method="POST">
+  
+                            
+                            
+                          <form action="https://formspree.io/f/mgepzlzp" method="POST" id="contact-form" >
                                 <div class="row">
                                     <div class="col">
                                         <p class="form-message"></p>
@@ -326,19 +331,18 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <!-- input field for NAME -->
-                                        <input class="input_field required" type="text" name="name" placeholder="Name">
                                         <!-- input field for EMAIL -->
-                                        <input class="input_field required" type="email" name="email" placeholder="Email">
+                                        <input class="input_field required" type="email" name="_replyto" placeholder="Email">
                                     </div>
                                     <div class="col-md-7">
                                         <!-- input field for MESSAGE -->
-                                        <textarea class="input_field required" name="message" placeholder="Tell Me About Your Query."></textarea>
+                                        <textarea class="input_field required" name="name" placeholder="Tell Me About Your Query."></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 text-center">
                                         <!-- button for MESSAGE-SEND -->
-                                        <button class="button slide-vertical" type="submit" data-splitting>send message</button>
+                                        <input type="submit" value="Send">
                                     </div>
                                 
                                 </div>
