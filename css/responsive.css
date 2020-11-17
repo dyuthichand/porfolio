@@ -112,6 +112,7 @@
 /* Medium devices (tablets, 768px and down) */
 
 @media (max-width: 767px) {
+ 
     .home_wrapper {
         height: 600px;
     }
@@ -147,6 +148,9 @@
 
 /* Small devices (mobile, 575px and down) */
 @media (max-width: 575px) {
+ .clients{
+  overflow:hidden;
+ }
  #experience{
   display:none;
  }
