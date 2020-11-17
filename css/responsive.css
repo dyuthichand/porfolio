@@ -147,10 +147,13 @@
 
 /* Small devices (mobile, 575px and down) */
 @media (max-width: 575px) {
+ #experience{
+  display:none;
+ }
     .home_wrapper {
         height: 450px;
     }
-    .about_info p.about_desc {
+    .about_info p{
         font-size: 16px;
     }
     .about_info p.about_desc span {
@@ -214,7 +217,7 @@
         height: 16px;
     }
     .about_wrapper {
-        padding: 75px 0;
+        padding:  0;
         margin-top: 75px;
     }
     .counter,
