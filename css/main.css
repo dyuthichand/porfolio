@@ -138,7 +138,7 @@ li {
 .landing_wrapper {
 	height: 100%;
 	background-color: #000;
-	background-position: center center;
+	background-position: center right;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
